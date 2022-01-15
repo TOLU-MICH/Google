@@ -33,3 +33,12 @@ body{
 .font--link{
     color: var(--color-primary);
 }
+
+/* ICON */
+.icon{
+    width: 24px;
+    height: 24px;
+}
+.icon__grey{
+    fill: var(--color-secondary) !important; 
+}
