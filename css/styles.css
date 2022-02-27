@@ -101,6 +101,7 @@ body {
 }
 .nav__font{
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .all-br_cont{
@@ -119,4 +120,57 @@ body {
 
 .app-br-cont{
   padding-right: 15px;
+}
+
+.mail{
+  display: none;
+}
+@media screen and (min-width:768px){
+  .imgbar--size, .all-br_cont{
+    display: none;
+  }
+  .nav__cont{
+    justify-content: flex-end;
+  } 
+  .app-br-cont{
+    padding-left:14px;
+  }
+  .nav__font{ 
+    font-weight: 600;
+    color: #3c4043;
+    text-transform:capitalize ;
+  }
+  .mail{
+    display: flex;
+  }
+}
+
+/*G00GLE*/
+
+.alpha{ 
+  padding-top: 5rem;
+  font-size:5rem;
+  font-weight: 540; 
+}
+
+.alpha1, .alpha4{
+  color: #1967d2;
+}
+.alpha2, .alpha6{
+  color: #ea4335;
+}
+.alpha3{
+  color: #fbbc05;
+}
+.alpha5{
+  color: #34a853;
+}
+
+@media screen and (min-width: 768px){
+  .alpha{ 
+    padding-top: 0;
+    font-size: 9.4rem;
+    font-weight: 540; 
+  }
+
 }
